@@ -24,7 +24,7 @@ public class DisplayManager {
 			Display.setDisplayMode(new DisplayMode(WIDTH,HEIGHT));
 			// se crea el display 
 			Display.create(new PixelFormat(), attribs);
-			
+			Display.setTitle("Prueba");
 		} catch (LWJGLException e) {
 			e.printStackTrace();
 		}
